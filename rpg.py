@@ -16,7 +16,6 @@ class Personagem:
         print(f"Turno de {self.nome}")
         print("1 - Atacar   2 - Pular   3 - Fichas")
 
-
     def atacar(self, inimigo):
         print(f'{self.nome} atacou {inimigo.nome} com {self.ataque} de ataque!')
         inimigo.receber_dano(self.ataque)
